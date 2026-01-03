@@ -12,12 +12,6 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-}
-
 h1, h2, h3, p {
     margin: 0;
 }
@@ -40,7 +34,6 @@ ul, li {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .header {
@@ -67,12 +60,12 @@ ul, li {
 .header-nav {
     display: flex;
     align-items: center;
+    margin-left: 76px;
 }
 
 .header-menu {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
     list-style: none;
     flex-direction: row;
     list-style: none;
@@ -118,6 +111,7 @@ ul, li {
 
  .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 
  .address {
@@ -175,7 +169,7 @@ ul, li {
     border-radius: 4px;
     cursor: pointer;
     min-width: 169px;
-    height: 56px;
+    padding: 16px 32px;
 }
 
 .main-button:hover {
