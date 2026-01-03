@@ -18,6 +18,20 @@ ul {
   margin: 0;
 }
 
+h1, h2, h3, p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -66,6 +80,8 @@ list-style-type: none;
  }
 
 .header-href {
+display: block;
+padding: 24px 0;
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -88,7 +104,9 @@ list-style: none;
     }
 
 .address-link {
- font-family: 'Roboto', sans-serif;
+display: block;
+padding: 24px 0;
+font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -104,12 +122,12 @@ font-style: normal;
 }
 
  .address {
-  list-style: none;
   display: flex;
+  gap: 40px;
+  list-style: none;
   flex-direction: row;
-  gap: 8px; 
-
 } 
+
 .address-link:hover {
     color: #404BBF;
     }
@@ -173,13 +191,6 @@ height: 56px;
 .main-button:focus {
     background: #404BBF;
     }
-
-.main-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-}
 
 .section-features {
   padding: 120px 0px;
@@ -250,17 +261,6 @@ margin-bottom: 60px;
   gap: 24px;
 }
 
-.section-title {
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2E2F42;
-margin-bottom: 72px;
-}
-
 .section-title-team {
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
@@ -269,16 +269,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2E2F42;
 text-align: center;
-margin-bottom: 60px;
-}
-
-.title-team {
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42; 
+margin-bottom: 72px;
 }
 
 .title-our-team {
@@ -307,13 +298,17 @@ border-radius: 0 0 4px 4px;
 width: calc((100% - 72px) / 4);
 }
 
+.team-content {
+  padding: 32px 16px;
+}
+
 .section-portfolio {
   padding: 120px 0;
 }
 
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  gap: 48px 24px;
   flex-wrap: wrap;
 
 }
@@ -336,15 +331,28 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-content {
+  padding: 32px 16px;
+  border: 1px solid #E7E9FC;
+  border-top: none;
+}
+
 .footer {
     background: #2E2F42;
+}
+
+.footer {
+  padding: 100px 0;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding: 48px 0;
+  gap: 16px;
 }
 
 .href-footer {
