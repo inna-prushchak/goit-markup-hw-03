@@ -184,6 +184,17 @@ ul, li {
     background: #404BBF;
     }
 
+.section-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
 .section-features {
     padding: 120px 0px;
 }
@@ -260,6 +271,7 @@ ul, li {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .title-text-our-team {
@@ -299,6 +311,7 @@ ul, li {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .title-text-portfolio {
